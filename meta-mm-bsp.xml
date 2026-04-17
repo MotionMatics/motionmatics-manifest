@@ -5,11 +5,24 @@
         fetch="https://github.com/"
     />
 
+    <remote
+        name="rauc"
+        fetch="https://github.com/rauc"
+    />
+
     <project
         name="MotionMatics/meta-motionmatics"
         remote="github"
         path="sources/meta-motionmatics"
         revision="master"
+    />
+
+    <project
+        name="meta-rauc"
+        remote="rauc"
+        path="sources/meta-rauc"
+        revision="11dab7734d4dfa46546cb0e2d8dcb3a1825e2355"
+        upstream="mickledore"
     />
 </manifest>
 
